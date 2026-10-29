@@ -1,0 +1,21 @@
+{
+  "name": "auction-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API for auction bids",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.16.0",
+    "supertest": "^7.1.1"
+  }
+}
